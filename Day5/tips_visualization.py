@@ -60,6 +60,6 @@ plt.subplot(2,3,6)
 sns.histplot(data=tips,x="tip",hue="smoker", bins=10, kde=True,palette="Set1")
 plt.ylabel("Number of Customers")
 
-plt.suptitle("Visualization of tips dataset", color="purple")
+plt.suptitle("Visualization of tips dataset Updated", color="purple")
 plt.tight_layout()
 plt.show()
